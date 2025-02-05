@@ -1,0 +1,176 @@
+/* Hide scrollbar for the entire page */
+html, body {
+    overflow: auto; /* Allow scrolling */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+}
+.hi {
+    background-color: rgb(160, 175, 217);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    margin: none;
+}
+
+.hi-links a {
+    color: rgb(236, 225, 234);
+    font-family: 'times', Times, serif;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.hi-links a:hover {
+    background-color: rgb(70, 30, 218);
+}
+
+button {
+    color: rgb(19, 2, 16);
+    background-color: rgb(70, 30, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+    border-color: aliceblue;
+}
+
+.button:hover {
+    background-color: rgb(13, 9, 251);
+}
+
+.page {
+    background-color: rgb(160, 175, 217);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(10, 10, 10);
+    padding: 25px 15px;
+    border-radius: 0 0 0px 0px;
+}
+
+.se input {
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    height: 30px;
+    padding: 0 10px;
+}
+
+.se button {
+    position: absolute;
+    left: 150px;
+    height: 30px;
+}
+
+.lade img {
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.trending {
+    background-color: rgb(181, 180, 180);
+    border-radius: 0px 0px 0px 0px;
+    padding: 20px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    margin: 0px;
+}
+.trending-h1{
+    color:rgb(253, 254, 254)
+}
+.trending-h1:hover {
+    font-size: 40px;
+    color: rgb(10, 0, 0);
+}
+.trending-h1:hover{
+    transition: font-size 0.7s ease;
+}
+
+.trending span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: rgba(57, 47, 47, 0.737);
+    padding: 10px 20px;
+
+}
+
+.trending-header button:hover {
+    background-color: rgba(223, 92, 92, 0.825);
+}
+
+.trending-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.trending-header h1 {
+    margin-top: 0;
+}
+
+.trending-cards {
+    display: flex;
+    gap: 12px;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+.trending-cards::-webkit-scrollbar {/*hide the scroll*/
+    display: none;
+}
+.trending-cards:hover {
+    cursor: grab;
+    /* تغيير المؤشر للإشارة إلى إمكانية السحب */
+}
+
+.Card {
+    flex: 0 0 auto;
+    width: 20px;
+}
+
+.card img {
+    border-radius: 25px 25px 0 0;
+    margin: 0;
+    display: block;
+    width: 220px;
+    height: 130px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(199, 191, 191, 0.977);
+    height: 100;
+    border-radius: 0 0 20px 20px;
+    padding: 0 0 5px 20px;
+    margin: 0;
+}
+
+.card-name {
+    width: 120px;
+    height: 90px;
+}
+
+.card-info img {
+
+    margin: 0;
+    display: block;
+    width: 50px;
+    height: 30px;
+    border-radius: 0 5px;
+}

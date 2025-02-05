@@ -1,0 +1,54 @@
+/* Card container with grid layout */
+.trending-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Distribute cards evenly */
+    gap: 10px; /* Space between cards */
+}
+
+/* Card styles */
+.card {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    height: 400px; /* Fixed card height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden; /* Hide overflow to maintain dimensions */
+}
+
+/* Card image styles */
+.card img {
+    width: 100%; /* Fill available space */
+    height: 60%; /* Fixed image height */
+    object-fit: cover; /* Ensure image covers space without distortion */
+    border-radius: 5px 5px 0 0; /* Rounded top corners */
+}
+
+/* Card information styles */
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(126, 125, 125, 0.977); /* Background color */
+    border-radius: 0 0 5px 5px; /* Rounded bottom corners */
+    padding: 10px;
+    width: 100%; /* Ensure full width */
+    height: 40%; /* Fixed height for card info */
+}
+
+.card-name {
+    margin: 10px 0;
+    flex-grow: 1; /* Ensure text fills available space */
+}
+
+.card-info img {
+    width: 50px; /* Image width */
+    height: 50px; /* Image height */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px;
+    align-self: flex-end; /* Align image to the end */
+}

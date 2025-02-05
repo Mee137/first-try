@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/hello.css">
+</head>
+<body>
+    <h1 id="welcome">Welcome!</h1>
+    <button onclick="changeLanguage('en')">English</button>
+    <button onclick="changeLanguage('fr')">French</button>
+    <form action="hello.php" method="post">
+        <label for="name">Password:</label>
+        <input type="password" id="name" name="name" required>
+        <input type="submit" value="Submit">
+    </form>
+    <script src="hello.js"></script>
+</body>
+</html>

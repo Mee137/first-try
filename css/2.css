@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(227, 52, 169);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+h1:hover{
+    font-size: 45px;
+    color:rgb(255, 255, 255);
+}
+h1:hover{
+    transition: 0.7s ease;
+}
+button{
+    border-radius: 15px 15px;
+    font-size: 20px;
+    border: white;
+    color:aliceblue;
+    padding: 7px 10px;
+    background-color: rgb(221, 71, 221);
+}
+button:hover{
+    color:rgb(0, 0, 0);
+    transition: 0.5s ease;
+}
+ol{
+    text-align: left;
+}
+ul{
+    text-align: left;
+}
+h3{
+text-align: left;
+}
